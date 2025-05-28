@@ -1,0 +1,5 @@
+@echo off
+set /p chapter="Enter number of chapter: "
+magick convert -density 300 *.jpg *.png "%chapter%.pdf"
+echo Ready! File %chapter%.pdf created.
+pause
